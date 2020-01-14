@@ -10,16 +10,3 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.presentations {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.presentations li {
-  width: 30%;
-  min-width: 330px;
-  margin-top: 25px;
-}
