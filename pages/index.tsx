@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from 'next/link'
 
 import { Layout } from 'antd';
 
@@ -20,7 +21,9 @@ const Home: NextPage = () => {
         <h3>Курсы</h3>
         <ul>
           <li>
-            <a href="https://easy-deep-learning.github.io/learn-frontend">Фронтенд/Бекенд на JS</a>, начался в конце мая 2022 года.
+            <Link href="/learn-frontend">
+              <a>Фронтенд/Бекенд на JS</a>
+            </Link>, начался в конце мая 2022 года.
           </li>
         </ul>
 
