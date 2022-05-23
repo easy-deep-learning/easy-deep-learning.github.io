@@ -36,14 +36,23 @@ const LearnFrontend: NextPage = () => {
               1. Я раньше не работал(-а) с HTML/CSS/JS, но хочу научиться
             </h3>
 
-            <Paragraph>— вам я рекомендую посмотреть и пройти два очень хороших вводных бесплатных курса:</Paragraph>
+            <Paragraph>— вам я рекомендую посмотреть и пройти несколько очень хороших вводных бесплатных курсов:</Paragraph>
 
             <ul>
               <li>
                 <strong>HTML/CSS верстка</strong>: <a href="https://htmlacademy.ru/courses/intro-to-web-development">https://htmlacademy.ru/courses/intro-to-web-development</a>
               </li>
               <li>
-                <strong>JS: <a href="https://ru.hexlet.io/courses/introduction_to_programming">https://ru.hexlet.io/courses/introduction_to_programming</a></strong>
+                <strong>HTML</strong>: <a href="https://ru.code-basics.com/languages/html">https://ru.code-basics.com/languages/html</a>
+              </li>
+              <li>
+                <strong>CSS</strong>: <a href="https://ru.code-basics.com/languages/css">https://ru.code-basics.com/languages/css</a>
+              </li>
+              <li>
+                <strong>JS</strong>: <a href="https://ru.code-basics.com/languages/javascript">https://ru.code-basics.com/languages/javascript</a>
+              </li>
+              <li>
+                <strong>Больше теории: <a href="https://ru.hexlet.io/courses/introduction_to_programming">https://ru.hexlet.io/courses/introduction_to_programming</a></strong>
               </li>
             </ul>
 
