@@ -32,7 +32,7 @@ const LearnFrontend: NextPage = () => {
               Многие откликнулось и я заметил, что есть два типа запросов:
             </Paragraph>
 
-            <h3>
+            <h3 id="novice">
               1. Я раньше не работал(-а) с HTML/CSS/JS, но хочу научиться
             </h3>
 
@@ -56,7 +56,7 @@ const LearnFrontend: NextPage = () => {
               </li>
             </ul>
 
-            <h3>
+            <h3 id="intermediate">
               2. Я немного знаю  HTML/CSS/JS, хочу развиваться дальше
             </h3>
 
@@ -69,7 +69,7 @@ const LearnFrontend: NextPage = () => {
 
             <Divider/>
 
-            <h3>И первым и вторым самое главное — нужно придумать свой проект</h3>
+            <h3 id="own-project">И первым и вторым самое главное — нужно придумать свой проект</h3>
 
             <Paragraph>Свой проект — главный мотиватор и необходимое условие успеха.</Paragraph>
 
@@ -87,17 +87,27 @@ const LearnFrontend: NextPage = () => {
             </ul>
 
 
-            <h3>У меня есть идея проекта, что дальше?</h3>
+            <h3 id="next-steps">У меня есть идея проекта, что дальше?</h3>
 
             <ul>
               <li>Создайте на github репозиторий, добавьте меня (alexbaumgertner) в collaborators</li>
               <li>
                 создайте issue с описанием проекта, вашими текущими знаниями HTML/CSS/JS, программами проектирования сайтов типа https://www.figma.com/ и начнем работать :)
               </li>
+              <li>
+                Будет здорово, если вы составите схему сайта в figma — макет каждой страницы, можно максимально схематично: какие блоки информации будут в каких местах.
+                <p>Примеры макетов:</p>
+                <ul>
+                  <li><a href="https://www.figma.com/community/file/849342658995967505">https://www.figma.com/community/file/849342658995967505</a></li>
+                  <li><a href="https://www.figma.com/community/file/829474905036527548">https://www.figma.com/community/file/829474905036527548</a></li>
+                </ul>
+              </li>
             </ul>
 
+            <Paragraph>Кстати, хороший курс по Figma: <a href="https://www.freecodecamp.org/news/figma-crash-course/">https://www.freecodecamp.org/news/figma-crash-course/</a></Paragraph>
 
-            <Paragraph>Как работать с github</Paragraph>
+
+            <h3 id="github">Как работать с github</h3>
             <ul>
               <li><a href="https://www.youtube.com/watch?v=9dkzbSnN2FQ">https://www.youtube.com/watch?v=9dkzbSnN2FQ (RU)</a></li>
               <li><a href="https://www.youtube.com/watch?v=RGOj5yH7evk&t=426s">https://www.youtube.com/watch?v=RGOj5yH7evk&t=426s (EN)</a></li>
