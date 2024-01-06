@@ -2,18 +2,14 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { Layout } from 'antd';
-
-const { Footer, Content } = Layout;
-
 const Home: NextPage = () => {
   return (
-    <Layout>
+    <div className={'layout'}>
       <Head>
         <title>Easy deep learning</title>
       </Head>
 
-      <Content>
+      <main>
         <h1>
           Образование спасет мир!
         </h1>
@@ -22,7 +18,7 @@ const Home: NextPage = () => {
         <ul>
           <li>
             <Link href="/learn-frontend">
-              <a>Фронтенд/Бекенд на JS</a>
+              Фронтенд/Бекенд на JS
             </Link>, начался в конце мая 2022 года.
           </li>
         </ul>
@@ -82,10 +78,8 @@ const Home: NextPage = () => {
 
         </div>
 
-      </Content>
-
-      <Footer/>
-    </Layout>
+      </main>
+    </div>
   )
 }
 

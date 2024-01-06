@@ -1,8 +1,6 @@
 import type { AppProps } from 'next/app'
 import Script from 'next/script'
 
-import 'antd/dist/antd.css'
-
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
