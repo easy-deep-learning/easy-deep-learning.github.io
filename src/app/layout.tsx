@@ -1,6 +1,9 @@
 import type { ReactNode } from 'react'
-import { Metadata } from 'next'
+import type { Metadata } from 'next'
 import Script from 'next/script'
+
+import { GlobalMenu } from '@/components'
+
 import '@/styles/global.css'
 
 export const metadata: Metadata = {
@@ -16,6 +19,9 @@ export default function RootLayout ({
   return (
     <html lang="en">
     <body>
+    <header>
+      <GlobalMenu />
+    </header>
     <main>
       {children}
     </main>
