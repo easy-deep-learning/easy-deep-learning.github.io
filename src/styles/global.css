@@ -1,5 +1,9 @@
-@import url('~simpledotcss/simple.min.css');
+@import url("~simpledotcss/simple.min.css");
 
 iframe {
-    border: none;
+  border: none;
+}
+
+:root {
+  --accent-bg: #fff;
 }
